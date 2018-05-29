@@ -53,7 +53,7 @@
                 resolve: resolve_dep([
                     'app/zen/zen_ctrl.js',
                     'app/zen/zen.css',
-                    'app/directive/painted-scroll.js'
+                    'app/directive/dragon.js'
                 ])
             })
             .state('head.article',{
@@ -62,7 +62,8 @@
                 templateUrl: 'app/article/article.html',
                 resolve: resolve_dep([
                     'app/article/article_ctrl.js',
-                    'app/article/article.css'
+                    'app/article/article.css',
+                    'app/directive/painted-scroll.js'
                 ])
             })
             .state('head.technology',{
@@ -72,7 +73,7 @@
                 resolve: resolve_dep([
                     'app/technology/technology_ctrl.js',
                     'app/technology/technology.css',
-                    'app/directive/dragon.js'
+                    'app/directive/painted-scroll.js'
                 ])
             })
             .state('head.about',{

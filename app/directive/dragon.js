@@ -8,16 +8,16 @@
     dragon.$inject = [];
 
     function dragon() {
-        return function (vm, $element, $attrs) {
+        return function (vm, $element) {
             $(function(){
                 $element.animate({
-                    top: '7%',
-                    left: '9%'
-                }, 1500, 'swing', function(){
+                    top: '14%',
+                    right: '120px'
+                }, 1800, 'swing', function(){
                     $element.animate({
-                        top: '24%',
-                        left: '0%'
-                    }, 1200);
+                        top: '34%',
+                        right: '-60px'
+                    }, 1500);
                 });
             });
         }

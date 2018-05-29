@@ -7,3 +7,13 @@
     background-image: url(../../image/zen/zen.png);
     background-position: center;
 }
+
+.zen .dragon{
+    position: absolute;
+    width: 724px;
+    height: 670px;
+    top: -100%;
+    right: -724px;
+    background-image: url(../../image/zen/dragon.png);
+    background-position: center;
+}

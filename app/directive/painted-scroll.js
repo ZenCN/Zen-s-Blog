@@ -14,7 +14,7 @@
                     $element.animate({
                         top: '0',
                         height: '96%'
-                    });
+                    }, 2000);
                 })
             });
         }

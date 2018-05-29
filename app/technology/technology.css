@@ -7,13 +7,3 @@
     background-image: url(../../image/technology/technology.png);
     background-position: center;
 }
-
-.technology .dragon{
-    position: relative;
-    top: 100%;
-    left: -39%;
-    width: 724px;
-    height: 670px;
-    background-image: url(../../image/technology/dragon.png);
-    background-position: center;
-}
