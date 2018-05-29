@@ -1,0 +1,91 @@
+.head{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 159px;
+    left: 0;
+    background-image: url(../../image/head/head.png);
+    background-position: center;
+}
+
+.head.main{
+    background-image: url(../../image/head/head_main.png);
+}
+
+.head .top{
+    background: url(../../image/head/top_bg.jpg);
+    background-repeat: repeat-x;
+    height: 28px;
+}
+
+.head .menu-left{
+    position: absolute;
+    top: 70px;
+    right: 50%;
+    height: 46px;
+    left: 0;
+}
+
+.head .menu-right{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    height: 46px;
+    left: 50%;
+}
+
+.head .navigation-left{
+    position: absolute;
+    top: 0;
+    right: 73px;
+    bottom: 0;
+    left: 20px;
+}
+
+.head .navigation-right{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    left: 65px;
+}
+
+.head ul.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.head ul.menu li{
+    width: 178px;
+    text-align: center;
+    position: relative;
+    line-height: 56px;
+}
+
+.head .navigation-left ul.menu li{
+    float: right;
+}
+
+.head .navigation-right ul.menu li{
+    float: left;
+}
+
+.head ul.menu li.selected{
+    background-image: url(../../image/head/selected.png);
+}
+
+.head ul.menu li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: STXingkai;
+    vertical-align: middle;
+}
+
+.head ul.menu li.selected a{
+    color: #ffffff;
+}

@@ -1,0 +1,32 @@
+<div>
+    <div class="head" ng-class="{main: ['about','technology'].exist(menu.selected)}">
+        <div class="top"></div>
+        <div class="menu-left">
+            <div class="navigation-left">
+                <ul class="menu">
+                    <li ng-click="menu.switch('article')" ng-class="{selected:menu.selected == 'article'}">
+                        <a href="javascript:void(0)">随笔</a>
+                    </li>
+                    <li ng-click="menu.switch('zen')" ng-class="{selected:menu.selected == 'zen'}">
+                        <a href="javascript:void(0)">一日禅</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-right">
+            <div class="navigation-right">
+                <ul class="menu">
+                    <li ng-click="menu.switch('technology')" ng-class="{selected:menu.selected == 'technology'}">
+                        <a href="javascript:void(0)">技术</a>
+                    </li>
+                    <li ng-click="menu.switch('about')" ng-class="{selected:menu.selected == 'about'}">
+                        <a href="javascript:void(0)">关于</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div ui-view>
+
+    </div>
+</div>

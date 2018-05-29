@@ -1,0 +1,38 @@
+.painted_wrap{
+    position: relative;
+    top: 41%;
+    height: 0;
+    width: 96%;
+    margin: 0 auto;
+    display: none;
+}
+
+.painted_scroll{
+    background: url(../../image/painted_scroll.jpg) no-repeat;
+    margin: auto;
+    height: 14px;
+    position: absolute;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.painted_scroll.top{
+    top:0;
+}
+
+.painted_scroll.bottom{
+    bottom:0;
+}
+
+.painted_content{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    bottom: 14px;
+    left: 14px;
+    background: rgb(229, 229, 229, 0.6);
+    overflow: hidden;
+    margin: auto;
+    border-left: #d2d2d2 1px solid;
+    border-right: #d2d2d2 1px solid;
+}
